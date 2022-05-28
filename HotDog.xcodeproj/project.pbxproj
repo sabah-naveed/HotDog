@@ -14,6 +14,7 @@
 		5C41105527FA60C300AF9C2A /* HotDog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C41105327FA60C300AF9C2A /* HotDog.xcdatamodeld */; };
 		5C41105727FA60C500AF9C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C41105627FA60C500AF9C2A /* Assets.xcassets */; };
 		5C41105A27FA60C500AF9C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C41105827FA60C500AF9C2A /* LaunchScreen.storyboard */; };
+		5C41106227FA7B4C00AF9C2A /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5C41106127FA7B4C00AF9C2A /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5C41105627FA60C500AF9C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C41105927FA60C500AF9C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C41105B27FA60C500AF9C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C41106127FA7B4C00AF9C2A /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5C41105827FA60C500AF9C2A /* LaunchScreen.storyboard */,
 				5C41105B27FA60C500AF9C2A /* Info.plist */,
 				5C41105327FA60C300AF9C2A /* HotDog.xcdatamodeld */,
+				5C41106127FA7B4C00AF9C2A /* Inceptionv3.mlmodel */,
 			);
 			path = HotDog;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C41106227FA7B4C00AF9C2A /* Inceptionv3.mlmodel in Sources */,
 				5C41105527FA60C300AF9C2A /* HotDog.xcdatamodeld in Sources */,
 				5C41104F27FA60C300AF9C2A /* ViewController.swift in Sources */,
 				5C41104B27FA60C300AF9C2A /* AppDelegate.swift in Sources */,
@@ -301,6 +305,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +334,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
